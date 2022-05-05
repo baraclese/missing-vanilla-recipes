@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "missing_vanilla_recipes",
+  "version": "${version}",
+  "name": "Missing Vanilla Recipes",
+  "description": "Adds missing vanilla recipes.",
+  "authors": [
+    "baraclese"
+  ],
+  "contact": {
+    "homepage": "https://github.com/baraclese",
+    "sources": "https://github.com/baraclese/missing-vanilla-recipes"
+  },
+  "license": "BSD-2-Clause",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "baraclese.missing_vanilla_recipes.MissingVanillaRecipesMod"
+    ]
+  },
+  "mixins": [
+    "missing_vanilla_recipes.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.6.4"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

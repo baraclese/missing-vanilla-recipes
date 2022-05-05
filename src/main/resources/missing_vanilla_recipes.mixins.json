@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "baraclese.missing_vanilla_recipes.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "FurnaceBlockEntityMixin",
+    "FurnaceScreenHandlerMixin",
+    "RecipeDispatcherMixin",
+    "SmeltingRecipeRegistryMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
